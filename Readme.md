@@ -27,3 +27,5 @@ It is a widget that appears as a side panel docked, by default, on the right of 
 Its use is extremely simple: select a layer from the list (if it does not appear, you can refresh it with the appropriate button), insert a text note and save. The process can be repeated for each layer.
 
 The notes are saved directly within the QGIS project as custom metadata, remaining associated with the layer even after the project is closed.
+
+![img1](https://github.com/user-attachments/assets/32c67072-f9ba-4c45-a1ea-7b04f3cc71d0)
