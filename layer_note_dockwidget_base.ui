@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LayerNoteDockWidgetBase</class>
+ <widget class="QDockWidget" name="LayerNoteDockWidgetBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>351</width>
+    <height>284</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Layer Note</string>
+  </property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_name">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>13</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Layer</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QComboBox" name="layerComboBox"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="refreshButton">
+      <property name="text">
+       <string>Aggiorna lista dei layer</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_note">
+      <property name="text">
+       <string>Nota</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QTextEdit" name="noteTextEdit"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QPushButton" name="saveButton">
+      <property name="text">
+       <string>Salva nota</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QPushButton" name="clearButton">
+      <property name="text">
+       <string>Cancella nota</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
