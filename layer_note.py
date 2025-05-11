@@ -57,7 +57,7 @@ class LayerNote:
         locale_path = os.path.join(
             self.plugin_dir,
             'i18n',
-            'LayerNote_{}.qm'.format(locale))
+            'layer_note_{}.qm'.format(locale))
 
         if os.path.exists(locale_path):
             self.translator = QTranslator()

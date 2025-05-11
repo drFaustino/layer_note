@@ -5,15 +5,17 @@
 [general]
 name=Layer Note
 qgisMinimumVersion=3.0
-description=Aggiungi annotazioni contestuali a layer e feature
-version=0.1
+description=Add contextual annotations to layers and features (Aggiungi delle annotazioni contestuali a vari livelli di un progetto).
+version=0.2
 author=dr. Geol. Faustino Cetraro
 email=geol-faustino@libero.it
 
-about=Aggiungi annotazioni contestuali a layer e feature
+about=It is a widget that appears as a side panel docked, by default, on the right of the main QGIS interface. It can be easily undocked by dragging it with the mouse to another position, and re-docked by double-clicking on the title bar. Its use is extremely simple: select a layer from the list (if it does not appear, you can refresh it with the appropriate button), insert a text note and save. The process can be repeated for each layer. The notes are saved directly within the QGIS project as custom metadata, remaining associated with the layer even after the project is closed.
 
-tracker=http://bugs
-repository=http://repo
+È un widget che si presenta come un pannello laterale ancorato, di default, sulla destra dell'interfaccia principale di QGIS. Può essere facilmente disancorato trascinandolo con il mouse in un'altra posizione, e riagganciato con un doppio clic sulla barra del titolo. Il suo utilizzo è estremamente semplice: si seleziona un layer dalla lista (se non compare, è possibile aggiornarla con l'apposito pulsante), si inserisce una nota di testo e si salva. Il procedimento può essere ripetuto per ciascun layer. Le note vengono salvate direttamente all'interno del progetto QGIS come metadati personalizzati, restando associate al layer anche dopo la chiusura del progetto.
+
+tracker=https://github.com/drFaustino/layer_note
+repository=https://github.com/drFaustino/layer_note
 # End of mandatory metadata
 
 # Recommended items:
@@ -25,7 +27,7 @@ hasProcessingProvider=no
 # Tags are comma separated with spaces allowed
 tags=composer, editing, feature, labeling, layers, metadata, note
 
-homepage=http://homepage
+homepage=https://github.com/drFaustino/layer_note
 category=Plugins
 icon=icon.png
 # experimental flag
