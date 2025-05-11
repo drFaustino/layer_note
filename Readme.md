@@ -28,4 +28,6 @@ Its use is extremely simple: select a layer from the list (if it does not appear
 
 The notes are saved directly within the QGIS project as custom metadata, remaining associated with the layer even after the project is closed.
 
-![img1](https://github.com/user-attachments/assets/32c67072-f9ba-4c45-a1ea-7b04f3cc71d0)
+![img2b](https://github.com/user-attachments/assets/74eabf95-7c8e-4dac-98e4-84d0808ebf7c)
+
+
