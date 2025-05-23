@@ -54,10 +54,7 @@ class LayerNote:
 
         # initialize locale
         locale = QSettings().value('locale/userLocale')[0:2]
-        locale_path = os.path.join(
-            self.plugin_dir,
-            'i18n',
-            'layer_note_{}.qm'.format(locale))
+        locale_path = os.path.join(self.plugin_dir, 'i18n', f'layer_note_{locale}.qm')
 
         if os.path.exists(locale_path):
             self.translator = QTranslator()

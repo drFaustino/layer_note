@@ -6,7 +6,7 @@
 name=Layer Note
 qgisMinimumVersion=3.0
 description=Add contextual annotations to layers and features (Aggiungi delle annotazioni contestuali a vari livelli di un progetto).
-version=0.2
+version=0.3
 author=dr. Geol. Faustino Cetraro
 email=geol-faustino@libero.it
 
